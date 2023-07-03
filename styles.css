@@ -1,0 +1,145 @@
+
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 1px;
+    padding: 50px;
+    background-color: aliceblue;
+}
+header{
+    box-sizing: border-box;
+    flex-direction: row;
+    display: flex;
+    margin: 0px;
+    
+
+}
+
+img{
+    padding: 10px;
+}
+input{
+    margin-top:0%;
+  
+    
+ }
+ .topnav {
+    overflow: hidden;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-right: 100px;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align:right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #5d5656;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active:hover {
+    background-color:grey;
+    color: black;
+  }
+  
+ 
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: right;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ad3636;
+    
+    }
+  }
+   /* Style the search box inside the navigation bar */
+   .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: solid;
+    border-color: #5d5656;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+.social_panel{
+    margin-top: 0;
+    max-height: fit-content;
+    background-origin: padding-box;
+    display: inline;  
+    }
+#fleximg{
+    height: 200px;
+   
+    border-color: black;
+    border: #5d5656;
+    margin:0%;
+}
+#firstimg{
+    height: 24px;
+    size: 24px;
+    float: right;
+}
+.header #headercaption{
+font-size: xx-large;
+font-family: Arial, Helvetica, sans-serif;
+font-style: unset;
+padding: 10px;
+font-feature-settings: "blwf";
+font-weight: 900;
+}
+.articles{
+    margin-right: 500px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#about{
+    margin: auto;
+    border-radius: 0%;
+    font-style: unset;
+    font-size: large;
+    font-weight: 800;
+    color: black;
+    padding-bottom: -5px;
+    text-decoration: none;
+    
+}
+#about :hover{
+    background-color: rgb(103, 17, 188);
+    margin-right: 0px;
+}
+#date{
+    margin-top: -40px;
+    font: 50px;
+    font-style: italic;
+    text-decoration: none;
+    padding-left: 0px;
+    
+}
+footer{
+    text-align: center;
+    margin: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
